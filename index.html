@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayyab's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=REM:wght@100&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="lib/aos.css">
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+</head>
+
+<body onload="loading()">
+    <div id="loader"></div>
+    <header>
+        <nav>
+            <div class="shadow__btn">
+                Tayyab's Portfolio
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="right" id="nav-links">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main_Section">
+            <div class="mainleft">
+                <div>Hi, im <span> tayyab</span>
+                    <br>
+                    <span id="element"></span>
+                </div>
+                <div class="btn">
+                    <a href="#" id="downloadLink">
+                        <!-- <button onclick="downloadCv()">Download Cv</button> -->
+                    </a>
+                </div>
+
+            </div>
+            <div class="main-img">
+                <img data-aos="fade-up-left" data-aos-delay="50" data-aos-duration="2000"
+                    src="./IMG_20230915_010051.jpg" alt="">
+            </div>
+        </div>
+        <hr class="hr1">
+        <section class="about" id="about">
+            <div class="aboutme">
+                <h1 data-aos="fade-down-left" data-aos-duration="1000">About <span>Me:</span></h1>
+                <img data-aos="fade-down" data-aos-duration="1500" src="./IMG_1060.JPG" alt="">
+                <p data-aos="zoom-in" data-aos-duration="1000"> Hello; Im Tayyab I hold a &nbsp <strong> MSc</strong>
+                    &nbsp degree in Computer science form the
+                    <strong>
+                        &nbsp Islamia University Bahawalpur </strong> in the Batch of 2021 to 2023 with the 3.4
+                    CGP.which
+                    serves as a passport to my exciting journey in the realm of technology. <br>
+                </p>
+            </div>
+        </section>
+        <section id="education">
+
+            <div class="education">
+                <h1>My <span style="color: yellow; ">Education </span> </h1>
+                <div class="table" data-aos="flip-left" data-aos-duration="2000">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Degree</th>
+                                <th>Board/University</th>
+                                <th>Year</th>
+                            </tr>
+                            <tr>
+                                <td>Matric </td>
+                                <td>BISE Bahawalpur </td>
+                                <td>2015 </td>
+                            </tr>
+                            <tr>
+                                <td>I.Cs </td>
+                                <td>BISE Bahawalpur </td>
+                                <td>2017 </td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc </td>
+                                <td>IUB Bahawalpur </td>
+                                <td>2019 </td>
+                            </tr>
+                            <tr>
+                                <td>BS ADP IT </td>
+                                <td>IUB Bahawalpur </td>
+                                <td>2023 </td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- projects section -->
+        <section id="projects" class="projects">
+            <div class="project">
+                <h1>My <span style="color: yellow; "> projects </span> </h1>
+            </div>
+
+            <div class="img">
+                <div>
+                    <div data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="2000">
+                        <h1>weather app</h1>
+                        <img src="./images/Screenshot (126).png" alt="p1">
+
+                    </div>
+
+
+
+                    <!-- <div class="content">
+                        <h2>Description </h2>
+                        <p>created by using HTML CSS  Java Script & Weather API </p>
+
+                    </div> -->
+
+                </div>
+
+                <div data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="2000">
+                    <h1>Quiz app</h1>
+                    <img src="./images/Screenshot (127).png" alt="p1">
+                </div>
+                <div data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="2000">
+                    <h1> country & postalcode</h1>
+                    <img src="/images/Screenshot (128).png" alt="p1">
+                </div>
+                <div data-aos="zoom-in-up" data-aos-delay="100" data-aos-duration="2000">
+                    <h1>TO-Do List app</h1>
+                    <img src="/images/Screenshot (129).png" alt="p1">
+                </div>
+                 
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <h1>Contact <span>ME</span></h1>
+                <form action="">
+                    <div class="input-group">
+                        <label for="name"> First Name:</label>
+                        <p> <input type="text" name="fname" placeholder="Enter Your Name" required></p>
+                    </div>
+                    <div class="input-group">
+                        <label for="name">Last Name:</label>
+                        <p> <input type="text" name="lname" placeholder="Enter Your Last Name" required></p>
+                    </div>
+                    <div class="input-group">
+                        <label for="name">Email:</label>
+                        <p> <input type="email" name="email" placeholder="Enter Your Email" required></p>
+                    </div>
+                    <div class="input-group">
+                        <label for="name">message:</label>
+                        <p> <textarea name="textarea" id="textarea" rows="8"
+                                placeholder="write a message on here"></textarea></p>
+                    </div>
+                    <button class="btn-donate">
+                        Submit
+                    </button>
+
+
+
+
+                </form>
+
+
+            </div>
+        </section>
+        <section class="footer">
+            <h5> Copyright &copy; 2023 by tayyab's Portfolio | All Rights Reserved. </h5>
+        </section>
+
+
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['And Im FullStack Web Developer'],
+                typeSpeed: 30,
+            });
+            let loader = document.getElementById("loader");
+            function loading() {
+                loader.style.display = "none";
+            }
+ 
+
+            //         // const hamburger = document.querySelector('.hamburger');
+            //         // const navLinks = document.querySelector('.right ul');
+
+            //         // hamburger.addEventListener('click', () => {
+            //         //     navLinks.classList.toggle('active'); // Toggle 'active' class on the list
+            //         // });
+            //         function downloadCv() {
+            //     // Set the file URL or path to your CV
+            //     var cvUrl = '/tayyab.pdf';
+
+            //     // Create an anchor element
+            //     var link = document.createElement('a');
+
+            //     // Set the href attribute to the file URL
+            //     link.href = "tayab.pdf";
+
+            //     // Set the download attribute with the desired filename
+            //     link.download = '/tayyab.pdf';
+
+            //     // Append the anchor element to the document
+            //     document.body.appendChild(link);
+
+            //     // Trigger a click event on the anchor element
+            //     link.click();
+
+            //     // Remove the anchor element from the document
+            //     document.body.removeChild(link);
+            // }
+
+
+        </script>
+        <script src="lib/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./script.js"></script>
+</body>
+
+</html>
